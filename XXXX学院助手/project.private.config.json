@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "projectname": "wx_campus_helper-master",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  },
+  "libVersion": "3.2.1"
+}

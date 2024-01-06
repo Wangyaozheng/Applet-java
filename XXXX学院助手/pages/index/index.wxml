@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<auth color="red" bind:authCallback="authCallback"></auth>
+<image class='backimg' src='/img/back.jpg' mode='scaleToFill'></image>
+<view class="container" style=''>
+   <view class='notice'>
+     {{notice}}
+   </view>
+
+   <view class='menu-box'>
+      <navigator  url="/pages/foundthing/foundthing" class='one a'>
+         空教室查询
+      </navigator>
+      <navigator url="/pages/shophelper/shophelper" class='one b'>
+        宿舍保修
+      </navigator>
+      <navigator url="/pages/secondhandstore/secondhandstore"  class='one c'>
+        失物招领
+      </navigator>
+      <navigator url="/pages/me/me"  class='one d'>
+          个人中心
+      </navigator>
+   </view>
+</view>
